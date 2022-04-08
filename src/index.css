@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.orange {
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.strong--gray{
+  background-color: #505050;
+  color: #fff;
+}
+
+.results{
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  font-size: 4em;
+}
+
+.inputValue {
+  width: 100%;
+  outline: none;
+  padding: 8px 16px;
+  border-color: gray;
+  border-radius: 20px;
+}
